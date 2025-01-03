@@ -1,0 +1,63 @@
+.about
+{
+    background-color: #1ABC9C;
+}
+.line-icon
+{
+    position: relative;
+}
+.line-icon::before
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    background-color: #fff;
+    width: 80px;
+    height: 5px;
+}
+.line-icon::after
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 42%;
+    background-color: #fff;
+    width: 80px;
+    height: 5px;
+}
+@media (max-width:575px)
+{
+    .line-icon::before
+{ 
+    left: 57% !important;
+
+}
+.line-icon::after
+{
+
+    right: 57% !important;
+
+}
+}
+@media (min-width:576px) {
+    .line-icon::before
+    {
+        left: 53%;
+    }
+    .line-icon::after
+    {
+        right: 53%;
+    }
+}
+@media (min-width:992px)
+{
+    .line-icon::before
+    {
+        left: 53%;
+    }
+    .line-icon::after
+    {
+        right: 53%;
+    }
+}
