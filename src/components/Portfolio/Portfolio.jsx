@@ -4,6 +4,7 @@ import img1 from '../../img/port1.png'
 import img2 from '../../img/port2.png'
 import img3 from '../../img/port3.png'
 export default function Portfolio() {
+  
   return (
     <>
       <section className='portfolio  d-flex align-items-center my-5 '>
